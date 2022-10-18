@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+header{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    margin-left: 20px;
+}
+#rede-social{
+    margin-right: 30px;
+}
+#logo img{
+    width: 250px;
+    cursor: pointer;
+}
+#rede-social img{
+    width: 32px;
+    margin: 15px 0px 0px 5px;
+    cursor: pointer;
+}
+#slog{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    height: 35px;
+    padding-top: 10px;
+    text-align: center;
+}
+main{
+    width: 500px;
+    margin-bottom: auto;
+    color: #008000;
+}
+footer{
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height: 25px;
+    padding-top: 4px;
+}
+fieldset{
+    border:solid 1px #008000;
+    border-radius: 10px;
+    padding: 0px 0px 10px 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+legend{
+    margin: 0px 0px 0px 20px;
+}
+option{
+    color: #008000;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+form input{
+    margin: 5px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+}
+input.numero{
+    width: 40px;
+}
+input.data{
+    width: 100px;
+}
+input#valor-aposta{
+    width: 60px;
+}
+input.acao-final{
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #008000;
+    border: 0px solid;
+    margin: 10px 0px 0px 180px;
+}
+main p{
+    margin: 14px 0px;
+    font-size: 18px;
+}
+main div{
+    margin: 40px 0px 20px 0px;
+}
+#resulado{
+    display: none;
+}

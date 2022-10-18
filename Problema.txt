@@ -1,0 +1,17 @@
+A empresa Premier Bet, está a procurar uma outra forma de 
+expandir seus negócios, aumentando o mecanismo de apostas, 
+para isto solicitou os melhores progamadores de Angola a 
+criação de uma solução tecnologica que os facilitaria na expansão.
+no entento tenciona criar um progama, para armazenar número 
+indentificador,nome, valor de aposta, numero de aposta, data de 
+nascimento, e morada.
+O sistema deve gerar números aleatórios, e as pessoas vão ganhando 
+de acordo com os valores aleatorios.
+se pelomenos acertar um digito do valor aleatorio, então o utilizador 
+mantém com o seu valor de aposta.
+se pelo menos acertar 2 digitos do valor aleatorio, então o utilizador 
+ganha 2x, mais o valor do valor da aposta.
+Se pelomenos acertar 3 digitos, então ganha 4x mais o valor de aposta
+se acertar 4 digitos, então o utilizador ganha 10x mais do valor de aposta
+O progama deve guardar todas as informações no final deve mostrar as opcoes
+mostrar e editar.

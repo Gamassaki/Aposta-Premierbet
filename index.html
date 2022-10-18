@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aposta com premierbet online</title>
+
+    <link rel="icon" href="logo.ico">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="./img/logo.png" alt="PremierBet">
+        </div>
+        <div id="rede-social">
+            <img src="./icones/facebook.png" alt="Facebook">
+            <img src="./icones/instagram.png" alt="Instagram">
+            <img src="./icones/twitter.png" alt="Twitter">
+        </div>
+    </header>
+
+    <div id="slog">
+        <p>Aposta online com a premierBet e ganhe muitos premios.</p>
+    </div>
+
+    <main id="jogando">
+        <form action="">
+            <fieldset>
+                <legend>ID</legend>
+                <select name="" id="id">
+                    <option value="">Selecione o id da sua Aposta</option>
+                    <option value="194561">194561</option>
+                    <option value="234562">234562</option>
+                    <option value="395523">395523</option>
+                    <option value="448514">448514</option>
+                    <option value="514765">514765</option>
+                    <option value="694566">694566</option>
+                    <option value="734567">734567</option>
+                    <option value="895528">895528</option>
+                    <option value="948519">948519</option>
+                </select>
+            </fieldset>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="" id="nome">
+            <label for="valor-aposta">Quantia a apostar</label>
+            <input type="number" min="200" name="" id="valor-aposta"> Kwz
+            <label for="numero">Numero de aposta de 0 até 9</label>
+            <input class="numero" min="0" max="9" type="number" name="" id="numero">
+            <input class="numero" min="0" max="9" type="number" name="" id="numero1">
+            <input class="numero" min="0" max="9" type="number" name="" id="numero2">
+            <input class="numero" min="0" max="9" type="number" name="" id="numero3">
+            <label for="data">Data de nascimento</label>
+            <input class="data" max="2004-01-01" type="date" name="" id="data">
+            <label for="morada">Morada</label>
+            <input type="text" name="" id="morada">
+        </form>
+        <input onclick="apostar()" class="acao-final" type="button" value="Apostar">
+    </main>
+
+    <main id="resulado">
+        
+        <p>ID: <span id="saidaId"></span></p>
+        <p>Nome: <span id="saidaNome"></span></p>
+        <p>Numero de aposta: <span id="saidaNumeroAposta"></span></p>
+        <p>Numero aleatorio: <span id="saidaNumeroAleatorio"></span></p>
+        <p>Data de nascimento: <span id="saidaDataNascimento"></span></p>
+        <p>Morada: <span id="saidaMorada"></span></p>
+        <hr>
+        <div>
+            <p>Resultado final</p>
+            <p>Quantia a apostar: <span id="saidaQuantiaApostar"></span>,00 Kwz</p>
+            <p>Quantia a Ganhar: <span id="saidaQuantiaGanhar"></span>,00 Kwz</p>
+        </div>
+
+        <input onclick="mostrarResultado()" class="acao-final" type="button" value="Voltar a apostar">
+
+    </main>
+
+    <footer> &copy; Copyright - Gamassaki</footer>
+</body>
+<script src="./js/estilo.js"></script>
+</html>
